@@ -9,7 +9,7 @@ def twoSum2(nums, target):   # for for => O(n^2)
             return n, (target - n)
         
 def twoSum(nums, target):
-    nums.sorted()      # sort list(nums) ascending.
+    nums.sort()      # sort list(nums) ascending.
     i = 0              # from 1st val in list.
     j = len(nums) - 1  # from last val in list.
     while i < j:
